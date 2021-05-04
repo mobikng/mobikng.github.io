@@ -478,3 +478,21 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 } 
+
+@media screen and (max-width: 768px) {
+    .footer-input input {
+        padding: 5px 10px;
+        text-align: center;
+        font-size: .5rem;
+
+    }
+    textarea {
+        text-align: center;
+    }
+
+    div.footer-btn a {
+        color: #f0f0f0;
+        font-size: 0.8rem;
+        padding: 10px 30px;
+    }
+}
